@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:  "Open Sans", sans-serif;
+}
+.first-div{
+ max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  
+}
+.nv-ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    
+}
+.a{
+    text-decoration: none;
+    color: #000D83;
+}
+.as{
+    text-decoration: none;
+   padding-top: 0.8rem;  
+}
+
+#unic{
+    border: 1px solid;
+    padding:0.8rem 2rem;
+    border-radius: 1rem;
+    
+}
+.head-bg{
+    background-color: #E7EFFF;
+}
+.hero-container{
+    max-width: 1200px;
+    margin: 0 auto;
+  padding: 0 20px;
+}
+.hero-section{
+    display: flex;
+    padding-top: 7rem;
+    justify-content:space-between ;
+}
+.hero-color{
+    font-weight: bold;
+    font-size: 2.5rem;
+    max-width: 560px;
+    color: #000D83;
+}
+.hero-pra{
+    max-width: 514px;
+    color:#040931 ;
+}
+.hero-btn{
+    padding: 1rem 2rem;
+    border-radius:0.8rem ;
+    
+}
+.hero-btn2{
+     padding: 1rem 2rem;
+    border-radius:0.8rem ;
+    margin-left: 1.8rem;
+}
+.hero-btn-div{
+    padding-top: 2.8rem;
+    
+}
+.hero-img{
+    padding-bottom: 4rem ;
+}
