@@ -9,7 +9,7 @@ body{
 .first-div{
  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  
   display: flex;
   justify-content: space-around;
   padding-top: 2rem;
@@ -119,4 +119,29 @@ body{
 .btn{
     padding: 1rem 2rem;
     border-radius: 0.8rem;
+}
+.center{
+    text-align: center;
+}
+.s-center{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #000D83;
+}
+.study-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 11.25rem;
+}
+.card-study{
+    padding: 1rem;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+     border-radius:1.8rem ;
+}
+                
+.study-flex{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap:1.5rem ;
 }
