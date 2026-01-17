@@ -145,3 +145,13 @@ body{
     grid-template-columns: repeat(4 , 1fr);
     gap:1.5rem ;
 }
+.last-section{
+    height: 26.875rem;
+     background-image: url("../images/news-letter.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: 11.25rem;
+     margin: 0 auto;
+     
+    
+}
