@@ -155,3 +155,23 @@ body{
      
     
 }
+.bg-color{
+   
+    background-color:#F1F6FF ;
+    
+    
+
+
+}
+.footer-grid{
+     display: grid;
+    grid-template-columns: repeat(5,1fr);
+    max-width: 1200px;
+    margin: 0  auto;
+    margin-top: 11.25rem;
+    padding-top:4.5rem ;
+}
+.footerflex{
+    display: flex;
+    justify-content: space-around;
+}
