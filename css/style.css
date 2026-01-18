@@ -11,15 +11,24 @@ body{
   margin: 0 auto;
   
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   padding-top: 2rem;
   
+}
+header{
+    position: sticky;
+    top: 0;
+    padding-bottom:1.875rem ;
 }
 .nv-ul{
     display: flex;
     list-style: none;
     gap: 2rem;
     
+}
+.a:hover{
+    color: #bbc9e6;
 }
 .a{
     text-decoration: none;
@@ -28,26 +37,53 @@ body{
 .as{
     text-decoration: none;
    padding-top: 0.8rem;  
-}
-
-#unic{
-    border: 1px solid;
+   
     padding:0.8rem 2rem;
     border-radius: 1rem;
-    
+    margin-right: 1rem;
+   transition: background-color 0.3s ease, color 0.3s ease ,border 0.3s ;
+}
+.as:hover{
+     background-color: #000D83;
+    color: #F1F6FF;
+    border: 1px solid;
+}
+
+.avater-flex{
+    display: flex;
+    padding-right: 1rem;
+}
+.position{
+    position: relative;
+    margin-left: -1rem;
+}
+.text{
+    width: 48px;
+    height: 48px;
+    background-color: black;
+    border-radius: 50%;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .head-bg{
     background-color: #E7EFFF;
 }
 .hero-container{
-    max-width: 1200px;
-    margin: 0 auto;
-  padding: 0 20px;
+    background-color: #E7EFFF;
 }
 .hero-section{
     display: flex;
     padding-top: 7rem;
     justify-content:space-between ;
+    
+}
+.hero-section-color{
+    
+    max-width: 1200px;
+    margin: 0 auto;
+  padding: 0 20px;
 }
 .hero-color{
     font-weight: bold;
@@ -105,6 +141,11 @@ body{
   margin: 2rem;
   border-radius: 1rem;
   padding:0 1rem ;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.05);
 }
 .icon-1{
     margin-top: 1rem;
@@ -133,11 +174,17 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 11.25rem;
+    margin-bottom: 11.25rem;
 }
 .card-study{
     padding: 1rem;
      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
      border-radius:1.8rem ;
+     transition: all 0.3s ease;
+     cursor: pointer;
+}
+.card-study:hover{
+    transform: translateY(-5px);
 }
                 
 .study-flex{
@@ -146,13 +193,34 @@ body{
     gap:1.5rem ;
 }
 .last-section{
-    height: 26.875rem;
-     background-image: url("../images/news-letter.png");
-     background-repeat: no-repeat;
-     background-size: cover;
-     margin-top: 11.25rem;
+    
+     max-width: 1200px;
      margin: 0 auto;
      
+    
+}
+
+.bg-img{
+    position: relative;
+    height: 450px;
+     background-image: url("../images/news-letter.png");
+     background-position: center;
+     background-size: cover;
+     border-radius: 1rem;
+}
+.overlay{
+    background-color: #000D83d7;
+   
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+     position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 1rem;
     
 }
 .bg-color{
@@ -162,6 +230,10 @@ body{
     
 
 
+}
+.under{
+    align-items: center;
+    
 }
 .footer-grid{
      display: grid;
