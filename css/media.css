@@ -1,0 +1,37 @@
+.hidden{
+    display: none;
+}
+@media screen and (max-width: 480px) {
+    .head-bg{
+         
+     
+    padding: 0 16px;
+    padding-bottom: 10px;
+    
+    }
+    .nav-bar, .re{
+        display: none;
+    }
+    .sign{
+         display: none;
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+    .hero-btn-div{
+        display: flex;
+    }
+    .hero-color{
+        font-size: 2rem;
+        width: 100%;
+    }
+   .hero-btn-div{
+    padding-top: 2rem;
+   }
+   .hero-btn , .hero-btn2{
+    padding: 1rem 1rem;
+    margin-bottom:3.75rem ;
+    
+    
+}
+}

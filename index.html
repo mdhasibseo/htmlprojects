@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>sakola</title>
+    <link rel="shortcut icon" href="images/fav-icon.png" type="image/x-icon">
 </head>
 <body>
     <header class="head-bg">
        <div class="first-div">
-        <div >
+        <div class="logo">
             <img src="images/logo.png" alt="">
         </div>
         <nav class="nav-bar">
             <ul class="nv-ul">
-                <li><a class="a" href="#">Home</a></li>
-                <li><a class="a" href="#">About</a></li>
-                <li><a class="a" href="#">School</a></li>
-                <li><a class="a" href="#">Studing</a></li>
+                <li><a class="a" href="#home">Home</a></li>
+                <li><a class="a" href="#about">About</a></li>
+                <li><a class="a" href="#school">School</a></li>
+                <li><a class="a" href="#studing">Studing</a></li>
             </ul>
         </nav>
 
-        <div>
-            <a id="uni" class="as" href="">Sign in </a>
-            <a id="unic" class="as" href="">sign up </a>
+        <div class="sign">
+            <a id="uni" class="as" href="#footer">Sign in </a>
+            <a id="unic" class="as" href="#footer">sign up </a>
         </div>
     
         </div>
@@ -31,9 +33,9 @@
         
 
     </header>
-    <main>
+    <main class="">
            <!--hero section-->
-        <section class="hero-container">
+        <section id="home" class="hero-container">
             <div class="hero-section-color">
             <div class="hero-section">
                 <div>
@@ -69,7 +71,7 @@
             </div>
             </div>
         </section>
-        <section class="second-section">
+        <section id="about" class="second-section , hidden">
             <div class="nd-img">
                 <img width="100%" src="images/about.png" alt="">
             </div>
@@ -123,7 +125,7 @@ And Have Advantage</h2>
                     </div>
             </div>
         </section>
-        <section class="second-section">
+        <section id="school" class="second-section , hidden">
             <div>
                 <h4>REPUTED  SCHOOLS</h4>
                 <h2 class="hero-color c-1 ">We Have Students
@@ -139,7 +141,7 @@ will not live without achievement</p>
             </div>
 
         </section>
-        <section class="study-section">
+        <section id="studing" class="study-section , hidden">
             
                 <p class="center">STUDYING</p>
                 <h2 class="s-center">We Have Many Classes For You To Take Lessons</h2>
@@ -181,7 +183,7 @@ will not live without achievement</p>
             
 
         </section>
-        <section class="last-section ">
+        <section class="last-section , hidden">
             <div class="bg-img">
             <div class="overlay">
              <div class="under">
@@ -197,7 +199,7 @@ will not live without achievement</p>
         
     </main>
 
-    <footer class="bg-color">
+    <footer  id="footer" class="bg-color hidden">
         <section class="footer-grid">
             <div class="footer-pra">
                 <div>
