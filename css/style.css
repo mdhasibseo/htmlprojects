@@ -163,6 +163,7 @@ header{
 }
 .center{
     text-align: center;
+    color: #FFF;
 }
 .s-center{
     text-align: center;
@@ -246,4 +247,21 @@ header{
 .footerflex{
     display: flex;
     justify-content: space-around;
+}
+.btn-newsletter{
+    text-align: center;
+   
+    
+}
+.btn-newsletter > button {
+    padding: 1rem 2rem;
+    border-radius:0.75rem ;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn-newsletter > button:hover{
+    background-color: #4AC7FF;
+}
+.footer-pra{
+    padding-right: 8.4375rem ;
 }
