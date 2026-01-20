@@ -2,7 +2,7 @@
     display: none;
 }
 @media screen and (max-width: 480px) {
-    .head-bg{
+    .head-bg , .second-section {
          
      
     padding: 0 16px;
@@ -15,6 +15,7 @@
     .sign{
          display: none;
     }
+    /* hero section*/
     .hero-section{
         flex-direction: column;
     }
@@ -33,5 +34,22 @@
     margin-bottom:3.75rem ;
     
     
-}
+  }
+    /* about section*/
+
+    .second-section {
+        flex-direction: column;
+    }
+    .hero-color-1{
+        text-align: center;
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    .icon-2{
+        display: none;
+    }
+    .second-section {
+        margin-top: 7.5rem;
+    }
+
 }
