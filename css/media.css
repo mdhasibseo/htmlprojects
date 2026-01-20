@@ -2,7 +2,7 @@
     display: none;
 }
 @media screen and (max-width: 480px) {
-    .head-bg , .second-section , .study-section {
+    .head-bg , .second-section , .study-section, .last-section , .bg-color  {
          
      
     padding: 0 16px;
@@ -73,6 +73,12 @@
     }
     .study-section{
         padding-top:7.5rem ;
+    }
+    .footer-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-pra{
+        grid-column: span 2;
     }
     
 }
