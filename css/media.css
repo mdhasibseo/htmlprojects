@@ -2,7 +2,7 @@
     display: none;
 }
 @media screen and (max-width: 480px) {
-    .head-bg , .second-section {
+    .head-bg , .second-section , .study-section {
          
      
     padding: 0 16px;
@@ -51,5 +51,28 @@
     .second-section {
         margin-top: 7.5rem;
     }
+    /*schol section  */
+    .c-1{
+        font-size:1.5rem ;
+        font-weight: bold;
+    }
+    .hero-pra{
+        width:100% ;
+    }
+    .study-img{
+        padding-top: 2rem;
+    }
 
+    /*school section */
+    .s-center{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .study-flex{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .study-section{
+        padding-top:7.5rem ;
+    }
+    
 }
